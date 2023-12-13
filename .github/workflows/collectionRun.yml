@@ -1,0 +1,25 @@
+name: Run Postman Collection
+
+on:
+  workflow_dispatch:
+
+jobs: 
+  newman:
+    runs-on:  ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Newman
+      run: npm install -g newman
+
+    - name: Run Postman Collection
+      run: newman run Ecom.postman_collection.json -e QA_Env.postman_environment.json
+      
+    
