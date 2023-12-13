@@ -20,6 +20,6 @@ jobs:
       run: npm install -g newman
 
     - name: Run Postman Collection
-      run: newman run Ecom.postman_collection.json -e QA_Env.postman_environment.json
+      run: newman run Ecom_loginFlowV2.postman_collection -e QA_EnvV2.postman_environment
       
     
