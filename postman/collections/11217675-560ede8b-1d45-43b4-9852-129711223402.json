@@ -40,7 +40,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"userEmail\": \"postmanTestName@postmanTestName.com\", \r\n    \"userPassword\": \"Postman2023+\"\r\n} //test\r\n//test2\r\n//test from branch test",
+					"raw": "{\r\n    \"userEmail\": \"postmanTestName@postmanTestName.com\", \r\n    \"userPassword\": \"Postman2023+\"\r\n} //test\r\n//test2\r\n//test from branch test test test test",
 					"options": {
 						"raw": {
 							"language": "json"
